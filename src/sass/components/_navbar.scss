@@ -1,0 +1,27 @@
+nav{
+    width:$full;
+    height:$auto;
+    display:flex;
+    background-color:$bleu;
+    justify-content:flex-end;
+    position:fixed;
+    top:0;
+
+    ul{
+        width:40%;
+        display:flex;
+        justify-content:space-around;
+
+        li{
+            list-style:none;
+            margin:auto;
+
+            a{
+                font-size:$a;
+                font-family:$calibri;
+                text-decoration:none;
+                color:$white;
+            }
+        }
+    }
+}
