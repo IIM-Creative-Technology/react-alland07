@@ -1,11 +1,17 @@
-const Presentation = ({clas,titre,description,img}) => {
-    return(
-        <div className={clas}>
-            <h2>Titre: {titre}</h2>
-            <p>Titre: {description}</p>
-            <img src={img} alt={description}/>
-        </div>
-    )
-}
+const Presentation = ({ clas, titre, description, img }) => {
+  return (
+    <div className={clas}>
+      <div className="TextPres">
+        <h2>{titre}</h2>
+        <br />
+        <br />
+        <p>{description}</p>
+      </div>
+      <div>
+        <img src={img} alt={description} />
+      </div>
+    </div>
+  );
+};
 
-export default Presentation
+export default Presentation;
