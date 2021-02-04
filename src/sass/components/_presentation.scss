@@ -1,23 +1,84 @@
-.anims{
-    margin-top:5%;
-    padding:auto;
-    width:100%;
-    height:auto;
-    
-    .snk{
-        background-color:$noir;
-        width:100%;
+.anims {
+  margin-top: 5%;
+  padding: auto;
+  width: 100%;
+  height: auto;
+
+  .left {
+    background-color: $noir;
+    width: auto;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin: auto;
+    padding: 2%;
+
+    .TextPres {
+      margin-left: 10%;
+      h2 {
+        font-size: $h2;
+        text-align: $centre;
+        width: auto;
+        margin: auto;
+        color: $white;
+      }
+      p {
+        font-size: $p;
+        text-align: $centre;
+        width: auto;
+        margin: auto;
+        color: $white;
+      }
     }
-    .kny{
-    background-color:$white;
-        width:100%;
+    .TextPres {
+      display: inline-block;
+      text-align: center;
     }
-    .dbz{
-        background-color:red;
-        width:100%;
+    div {
+      width: auto;
+      height: auto;
+      img {
+        width: 100%;
+        height: 50%;
+      }
     }
-    .naruto{
-        background-color:green;
-        width:100%;
+  }
+  .right {
+    background-color: $bc;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 2%;
+    width: auto;
+    .TextPres {
+      margin-right: 50px;
+      h2 {
+        font-size: $h2;
+        text-align: $centre;
+        width: auto;
+        margin: auto;
+        color: $noir;
+      }
+      p {
+        font-size: $p;
+        text-align: $centre;
+        width: auto;
+        margin: auto;
+        color: $noir;
+      }
     }
+    div {
+      width: auto;
+      height: auto;
+      img {
+        width: 100%;
+        height: 50%;
+      }
+    }
+  }
+  .naruto .TextPres {
+    margin-right: 25%;
+  }
 }
