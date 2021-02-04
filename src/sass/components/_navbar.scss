@@ -1,27 +1,28 @@
-nav{
-    width:$full;
-    height:$auto;
-    display:flex;
-    background-color:$bleu;
-    justify-content:flex-end;
-    position:fixed;
-    top:0;
+nav {
+  width: $full;
+  height: $auto;
+  display: flex;
+  background-color: $bleu;
+  justify-content: flex-end;
 
-    ul{
-        width:40%;
-        display:flex;
-        justify-content:space-around;
+  top: 0;
 
-        li{
-            list-style:none;
-            margin:auto;
+  ul {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
 
-            a{
-                font-size:20px;
-                font-family:$calibri;
-                text-decoration:none;
-                color:$white;
-            }
-        }
+    li {
+      list-style: none;
+      margin: auto;
+
+      a {
+        font-size: 30px;
+        font-family: $calibri;
+        text-decoration: none;
+        color: $white;
+      }
     }
+  }
 }
