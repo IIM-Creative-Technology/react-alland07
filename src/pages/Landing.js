@@ -1,24 +1,27 @@
-import { Link } from "react-router-dom";
 import Meteo from "../components/Meteo";
 import Navbar from "../components/Navbar";
+import Container from '../components/landing/Container';
+import Presentation from '../components/landing/Presentation';
+
+//Data
+import data from '../Data/PresentationData.json';
 
 const Landing = () => {
   return (
     <>
       <Navbar />
-      <div className="container">
-        <h1>Quizz Animes</h1>
-        <h2>Presentation du quizz</h2>
-        <p>
-          Ce quizz mettra à l'epreuve vos connaissances en animes Japonais à
-          travers des questions sur ces oeuvres cultes
-        </p>
-        <Link to="/quizz">
-          <button>Commencer</button>
-        </Link>
+      <Container/>
+      <div className="anims">
+        {data.map((data)=>{
+          return(
+            <Presentation clas={data.clas} titre={data.titre} 
+                      description={data.description}
+                      img={data.url} />   
+          )
+        })}
       </div>
       <Meteo />
     </>
-  );
+  );  
 };
 export default Landing;

@@ -4,9 +4,10 @@
   margin-top: 15vh;
   width: auto;
   background-color: $bleu;
-  border-radius: 30px;
+  border-radius: 20px;
   text-align: center;
-  padding: 2%;
+  padding: 5%;
+
   &:nth-child(n + 1) {
     padding: 10px;
   }

@@ -1,0 +1,27 @@
+[
+    {
+        "clas":"snk",
+        "titre": "Shingeki No Kyojin",
+        "description": "Attack On Titan",
+        "url":"https://i1.wp.com/cours-de-japonais.com/wp-content/uploads/2019/04/shingeki-no-kyojin.jpg?resize=1140%2C641&ssl=1"
+    },
+    {
+        "clas":"kny",
+        "titre": "Kimetsu No Yaiba",
+        "description": "Demon Slayer",
+        "url":"https://i.pinimg.com/originals/b4/d2/14/b4d214127ce02ac87d6b6fe38340f285.jpg"
+    },
+    {
+        "clas":"dbz",
+        "titre": "Dragon Ball Z",
+        "description": "DBZ",
+        "url":"https://www.hostblog.fr/wp-content/uploads/2020/03/dragon-ball-z.jpb_.jpg"
+    },
+    {
+        "clas":"naruto",
+        "titre": "Naruto",
+        "description": "Naruto",
+        "url":"https://www.serieously.com/wp-content/uploads/2020/03/Naruto.jpg"
+    }
+
+]
