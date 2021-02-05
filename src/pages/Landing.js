@@ -18,6 +18,7 @@ const Landing = () => {
               clas={data.clas}
               titre={data.titre}
               description={data.description}
+              
               img={data.url}
             />
           );

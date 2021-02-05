@@ -1,218 +1,120 @@
 [
   {
     "snk": {
-      "question1": {
-        "titre": "question ",
-        "reponse": "reponse",
-        "etat": false
-      },
-      "question2": {
-        "titre": "question ",
-        "reponse": "reponse",
-        "etat": false
-      },
-      "question3": {
-        "titre": "question ",
-        "reponse": "reponse",
-        "etat": false
-      },
-      "question4": {
-        "titre": "question ",
-        "reponse": "reponse",
-        "etat": false
-      },
-      "question5": {
-        "titre": "question ",
-        "reponse": "reponse",
-        "etat": false
-      },
-      "question6": {
-        "titre": "question ",
-        "reponse": "reponse",
-        "etat": false
-      },
-      "question7": {
-        "titre": "question ",
-        "reponse": "reponse",
-        "etat": false
-      },
-      "question8": {
-        "titre": "question ",
-        "reponse": "reponse",
-        "etat": false
-      },
-      "question9": {
-        "titre": "question ",
-        "reponse": "reponse",
-        "etat": false
-      },
-      "question10": {
-        "titre": "question ",
-        "reponse": "reponse",
-        "etat": false
+        "question1": {
+          "titre": "Qui a détruit la porte interne du district de Siganshina",
+          "reponse":{
+            "a":"Le titan Cuirassé",
+            "b":"Le titan Assaillant",
+            "c":"Le titan Bestial",
+            "d":"Le titan Colossal",
+            "vraie":"Le titan Colossal"
+          },
+          "etat": false
+        },
+        "question2": {
+          "titre": "Qu'a offert eren à Mikasa lorsqu'ils etaient enfants ",
+          "reponse":{
+            "a":"Une echarpe",
+            "b":"une montre",
+            "c":"un collier",
+            "d":"une veste",
+            "vraie" : "Une echarpe"
+          },
+          "etat": false
+        },
+        "question3": {
+          "titre": "Combien y a t'il de primordiaux ",
+          "reponse":{
+            "a":"3",
+            "b":"6",
+            "c":"9",
+            "d":"12",
+            "vraie" : "9"
+          },
+          
+          "etat": false
+        },
+        "question4": {
+          "titre": "Qui a donné le titan aissailant à Eren ",
+          "reponse":{
+            "a":"Eren",
+            "b":"Ymir",
+            "c":"Sieg",
+            "d":"Grisha",
+            "vraie":"Grisha"
+          },
+          "etat": false
+        },
+        "question5": {
+          "titre": "Comment va se finir l'anime ?",
+          "reponse":{
+            "a":"Une boucle temporelle",
+            "b":"Armin devient colossal et detruit le monde",
+            "c":"Eren meurt ",
+            "d":"On ne sait pas",
+            "vraie" : "On ne sait pas"
+          },
+          "etat": false
+        },
+        "question6": {
+          "titre": "Qui sont les gentils ? ",
+          "reponse":{
+            "a":"Paradis",
+            "b":"Monde",
+            "c":"Personne",
+            "d":"Tout le monde",
+            "vraie":"Personne"
+          },
+          "etat": false
+        },
+        "question7": {
+          "titre": "Quels sont les titans qu'Eren possède ?",
+          "reponse":{
+            "a":"Cuirassé/Marteau/Assaillant",
+            "b":"Originel/Marteau/Assaillant",
+            "c":"Machoire/Cuirassé/Assaillant",
+            "d":"Originel/Cuirassé/Assaillant",
+            "vraie":"Originel/Marteau/Assaillant"
+          },
+          "etat": false
+        },
+        "question8": {
+          "titre": "Comment Eren utilise son pouvoir pour la premiere fois ?",
+          "reponse":{
+            "a":"Apres s'etre mordu ",
+            "b":"Apres avoir été mangé par le titan Pere Noel",
+            "c":"Apres avoir eu un flashback ",
+            "d":"Involontairement, Juste apres avoir eu son pouvoir",
+            "vraie":"Apres avoir été mangé par le titan Pere Noel"
+          },
+          "etat": false
+        },
+        "question9": {
+          "titre": "Q'était il marque sur la boite de conserve que tenait Ymir",
+          "reponse":{
+            "a":"Lentille ",
+            "b":"Harang",
+            "c":"petit pois",
+            "d":"thon",
+            "vraie":"Harang"
+          },
+          "etat": false
+        },
+        "question10": {
+          "titre": "Qu'y a t-il dans la cave ?",
+          "reponse":{
+            "a":"Une photo",
+            "b":"Un tableau",
+            "c":"De la nourriture moderne",
+            "d":"Une clé",
+            "vraie":"Une photo"
+          },
+          "etat": false
+        }
       }
+      
     }
-  },
-  {
-    "kny": {
-      "question1": {
-        "titre": "question ",
-        "reponse": "reponse",
-        "etat": false
-      },
-      "question2": {
-        "titre": "question ",
-        "reponse": "reponse",
-        "etat": false
-      },
-      "question3": {
-        "titre": "question ",
-        "reponse": "reponse",
-        "etat": false
-      },
-      "question4": {
-        "titre": "question ",
-        "reponse": "reponse",
-        "etat": false
-      },
-      "question5": {
-        "titre": "question ",
-        "reponse": "reponse",
-        "etat": false
-      },
-      "question6": {
-        "titre": "question ",
-        "reponse": "reponse",
-        "etat": false
-      },
-      "question7": {
-        "titre": "question ",
-        "reponse": "reponse",
-        "etat": false
-      },
-      "question8": {
-        "titre": "question ",
-        "reponse": "reponse",
-        "etat": false
-      },
-      "question9": {
-        "titre": "question ",
-        "reponse": "reponse",
-        "etat": false
-      },
-      "question10": {
-        "titre": "question ",
-        "reponse": "reponse",
-        "etat": false
-      }
-    }
-  },
-  {
-    "dbz": {
-      "question1": {
-        "titre": "question ",
-        "reponse": "reponse",
-        "etat": false
-      },
-      "question2": {
-        "titre": "question ",
-        "reponse": "reponse",
-        "etat": false
-      },
-      "question3": {
-        "titre": "question ",
-        "reponse": "reponse",
-        "etat": false
-      },
-      "question4": {
-        "titre": "question ",
-        "reponse": "reponse",
-        "etat": false
-      },
-      "question5": {
-        "titre": "question ",
-        "reponse": "reponse",
-        "etat": false
-      },
-      "question6": {
-        "titre": "question ",
-        "reponse": "reponse",
-        "etat": false
-      },
-      "question7": {
-        "titre": "question ",
-        "reponse": "reponse",
-        "etat": false
-      },
-      "question8": {
-        "titre": "question ",
-        "reponse": "reponse",
-        "etat": false
-      },
-      "question9": {
-        "titre": "question ",
-        "reponse": "reponse",
-        "etat": false
-      },
-      "question10": {
-        "titre": "question ",
-        "reponse": "reponse",
-        "etat": false
-      }
-    }
-  },
-  {
-    "naruto": {
-      "question1": {
-        "titre": "question ",
-        "reponse": "reponse",
-        "etat": false
-      },
-      "question2": {
-        "titre": "question ",
-        "reponse": "reponse",
-        "etat": false
-      },
-      "question3": {
-        "titre": "question ",
-        "reponse": "reponse",
-        "etat": false
-      },
-      "question4": {
-        "titre": "question ",
-        "reponse": "reponse",
-        "etat": false
-      },
-      "question5": {
-        "titre": "question ",
-        "reponse": "reponse",
-        "etat": false
-      },
-      "question6": {
-        "titre": "question ",
-        "reponse": "reponse",
-        "etat": false
-      },
-      "question7": {
-        "titre": "question ",
-        "reponse": "reponse",
-        "etat": false
-      },
-      "question8": {
-        "titre": "question ",
-        "reponse": "reponse",
-        "etat": false
-      },
-      "question9": {
-        "titre": "question ",
-        "reponse": "reponse",
-        "etat": false
-      },
-      "question10": {
-        "titre": "question ",
-        "reponse": "reponse",
-        "etat": false
-      }
-    }
-  }
+ 
 ]
+
