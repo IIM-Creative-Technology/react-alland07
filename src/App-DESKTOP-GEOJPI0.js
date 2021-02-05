@@ -1,5 +1,4 @@
-import Routeur from "./Route/Router";
-import "./sass/helpers/import.scss";
+import Routeur from './Route/Router';
 
 function App() {
   return (

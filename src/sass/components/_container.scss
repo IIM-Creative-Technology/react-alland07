@@ -1,0 +1,15 @@
+.container {
+  margin: auto;
+  display: table;
+  margin-top: 15vh;
+  width: auto;
+  background-color: $noir;
+  border-radius: 20px;
+  text-align: center;
+  padding: 5%;
+  color: rgb(206, 206, 206);
+
+  &:nth-child(n + 1) {
+    padding: 10px;
+  }
+}
