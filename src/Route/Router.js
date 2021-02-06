@@ -13,11 +13,14 @@ const Routeur = () =>{
                 <Switch>
                     <Route exact path = "/" component={Landing}/>
                     <Route path="/quizz" component={Quizz}/>
-                    <Route path="/quizz/1" component={Question} />
+    
+                    <Route path="/question/1">
+                        <Question data={data[0].snk}/>
+                    </Route>
 
-                    <Route path="/quizz/2" component={Question}/>
-                    <Route path="/quizz/3" component={Question}/>
-                    <Route path="/quizz/4"/>
+                    <Route path="/question/2" component={Question}/>
+                    <Route path="/question/3" component={Question}/>
+                    <Route path="/question/4" component={Question}/>
                         
                 </Switch>
             </Router>

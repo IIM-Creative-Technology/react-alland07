@@ -1,120 +1,107 @@
 [
   {
-    "snk": {
-        "question1": {
+    "snk":[ 
+        {
           "titre": "Qui a détruit la porte interne du district de Siganshina",
-          "reponse":{
-            "a":"Le titan Cuirassé",
-            "b":"Le titan Assaillant",
-            "c":"Le titan Bestial",
-            "d":"Le titan Colossal",
-            "vraie":"Le titan Colossal"
-          },
-          "etat": false
+          "reponse" : [
+            "Le titan Assaillant",
+            "Le titan Bestial",
+            "Le titan Colossal",
+            "Le titan Cuirassé"
+          ],
+          "vrai":   "Le titan Colossal"
         },
-        "question2": {
+        {
           "titre": "Qu'a offert eren à Mikasa lorsqu'ils etaient enfants ",
-          "reponse":{
-            "a":"Une echarpe",
-            "b":"une montre",
-            "c":"un collier",
-            "d":"une veste",
-            "vraie" : "Une echarpe"
-          },
-          "etat": false
+          "reponse": [
+            "Une echarpe",
+            "une montre",
+            "un collier",
+            "une veste"
+          ],
+          "vraie" : "Une echarpe"
         },
-        "question3": {
+        {
           "titre": "Combien y a t'il de primordiaux ",
-          "reponse":{
-            "a":"3",
-            "b":"6",
-            "c":"9",
-            "d":"12",
-            "vraie" : "9"
-          },
-          
-          "etat": false
+          "reponse":[ 
+            "3",
+            "6",
+            "9",
+            "12"
+          ],
+          "vraie" : "9"
         },
-        "question4": {
+        {
           "titre": "Qui a donné le titan aissailant à Eren ",
-          "reponse":{
-            "a":"Eren",
-            "b":"Ymir",
-            "c":"Sieg",
-            "d":"Grisha",
+          "reponse":[ 
+            "Eren",
+            "Ymir",
+            "Sieg",
+             "Grisha"
+          ],
             "vraie":"Grisha"
-          },
-          "etat": false
         },
-        "question5": {
+        {
           "titre": "Comment va se finir l'anime ?",
-          "reponse":{
-            "a":"Une boucle temporelle",
-            "b":"Armin devient colossal et detruit le monde",
-            "c":"Eren meurt ",
-            "d":"On ne sait pas",
-            "vraie" : "On ne sait pas"
-          },
-          "etat": false
+          "reponse":[
+            "Une boucle temporelle",
+            "Armin devient colossal et detruit le monde",
+            "Eren meurt ",
+            "On ne sait pas"
+          ],
+          "vraie" : "On ne sait pas"
         },
-        "question6": {
+        {
           "titre": "Qui sont les gentils ? ",
-          "reponse":{
-            "a":"Paradis",
-            "b":"Monde",
-            "c":"Personne",
-            "d":"Tout le monde",
-            "vraie":"Personne"
-          },
-          "etat": false
+          "reponse":[ 
+            "Paradis",
+            "Monde",
+            "Personne",
+            "Tout le monde"
+          ],
+          "vraie":"Personne"
         },
-        "question7": {
+        {
           "titre": "Quels sont les titans qu'Eren possède ?",
-          "reponse":{
-            "a":"Cuirassé/Marteau/Assaillant",
-            "b":"Originel/Marteau/Assaillant",
-            "c":"Machoire/Cuirassé/Assaillant",
-            "d":"Originel/Cuirassé/Assaillant",
-            "vraie":"Originel/Marteau/Assaillant"
-          },
-          "etat": false
+          "reponse":[ 
+            "Cuirassé/Marteau/Assaillant",
+            "Originel/Marteau/Assaillant",
+            "Machoire/Cuirassé/Assaillant",
+            "Originel/Cuirassé/Assaillant"
+          ],
+          "vraie":"Originel/Marteau/Assaillant"
         },
-        "question8": {
+        {
           "titre": "Comment Eren utilise son pouvoir pour la premiere fois ?",
-          "reponse":{
-            "a":"Apres s'etre mordu ",
-            "b":"Apres avoir été mangé par le titan Pere Noel",
-            "c":"Apres avoir eu un flashback ",
-            "d":"Involontairement, Juste apres avoir eu son pouvoir",
-            "vraie":"Apres avoir été mangé par le titan Pere Noel"
-          },
-          "etat": false
+          "reponse":[
+            "Apres s'etre mordu ",
+            "Apres avoir été mangé par le titan Pere Noel",
+            "Apres avoir eu un flashback ",
+            "Involontairement, Juste apres avoir eu son pouvoir"
+          ],
+          "vraie":"Apres avoir été mangé par le titan Pere Noel"
         },
-        "question9": {
+        {
           "titre": "Q'était il marque sur la boite de conserve que tenait Ymir",
-          "reponse":{
-            "a":"Lentille ",
-            "b":"Harang",
-            "c":"petit pois",
-            "d":"thon",
-            "vraie":"Harang"
-          },
-          "etat": false
+          "reponse":[ 
+            "Lentille ",
+            "Harang",
+            "petit pois",
+            "thon"
+          ],
+          "vraie":"Harang"
         },
-        "question10": {
+        {
           "titre": "Qu'y a t-il dans la cave ?",
-          "reponse":{
-            "a":"Une photo",
-            "b":"Un tableau",
-            "c":"De la nourriture moderne",
-            "d":"Une clé",
-            "vraie":"Une photo"
-          },
-          "etat": false
+          "reponse":[
+            "Une photo",
+            "Un tableau",
+            "De la nourriture moderne",
+            "Une clé"
+          ],
+          "vraie":"Une photo"
         }
-      }
-      
-    }
- 
+    ] 
+  }
 ]
 
