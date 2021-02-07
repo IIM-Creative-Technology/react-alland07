@@ -2,7 +2,7 @@ import Navbar from '../Navbar';
 import Rep from './Reponses';
 import {useState,useEffect} from 'react';
 import Resultat from './Resultats';
-import { Redirect } from "react-router-dom";
+
 
 const Question = ({ data }) => {
 
@@ -10,7 +10,8 @@ const Question = ({ data }) => {
     const [score, setScore] = useState(0);
     const [nbQuestion, setNbQuestion] = useState(0);
     const [finish, setFinish] = useState(false);
-
+    //le build ne marchait pas si le setQuestionData n'etait pas utilisé
+    setQuestionData(questionData);
     useEffect(()=>{
         document.title = `Questions numéro ${nbQuestion +1}.`;
     },)
@@ -67,5 +68,3 @@ const Question = ({ data }) => {
 };
 
 export default Question;
-
-{/* <Redirect to={this.state.redirect} /> */}
