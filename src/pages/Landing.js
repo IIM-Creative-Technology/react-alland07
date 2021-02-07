@@ -10,8 +10,9 @@ const Landing = () => {
   return (
     <>
       <Navbar />
-      <Container />
-      <div className="anims">
+      <Container/>
+      <Meteo />
+      <section className="anims">
         {data.map((data) => {
           return (
             <Presentation
@@ -22,8 +23,8 @@ const Landing = () => {
             />
           );
         })}
-      </div>
-      <Meteo />
+      </section>
+      <br/>
     </>
   );
 };

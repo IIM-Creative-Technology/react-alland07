@@ -1,12 +1,38 @@
-import {Link} from 'react-router-dom';
-import Navbar from '../components/Navbar';
+import {Link } from "react-router-dom";
+import Navbar from "../components/Navbar";
 
-const Landing = ()=>{
-    return(
-        <>
+const Quizz = () => {
+    return ( 
+       <>
             <Navbar/>
-            <h2>Voilà</h2>
+            <div className="quizzPage">
+                <div className="quizz">
+                    <h2> Quizz Shingeki no Kyojin </h2>
+                    <Link to="/question/1" >
+                        Commencer 
+                    </Link>
+                </div>
+                <div className="quizz">
+                    <h2> Quizz Kimetsu no Yaiba </h2> 
+                    <Link to="/question/2">
+                        Commencer 
+                    </Link>
+                </div>
+                <div className="quizz">
+                    <h2> Quizz Dragon Ball Z</h2> 
+                    <Link to="/question/3">
+                    Commencer 
+                    </Link > 
+                </div>
+                <div className="quizz">
+                    <h2> Quizz Naruto </h2> 
+                    <Link to="/question/4"> 
+                        Commencer 
+                    </Link> 
+                </div>
+            </div>
         </>
+        
     )
 }
-export default Landing
+export default Quizz;
