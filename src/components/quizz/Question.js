@@ -10,8 +10,8 @@ const Question = ({ data }) => {
     const [score, setScore] = useState(0);
     const [nbQuestion, setNbQuestion] = useState(0);
     const [finish, setFinish] = useState(false);
-    //le build ne marchait pas si le setQuestionData n'etait pas utilisé
-    setQuestionData(questionData);
+
+    //setQuestionData
     useEffect(()=>{
         document.title = `Questions numéro ${nbQuestion +1}.`;
     },)
