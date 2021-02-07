@@ -2,6 +2,7 @@ import Navbar from '../Navbar';
 import Rep from './Reponses';
 import {useState,useEffect} from 'react';
 import {Link} from 'react-router-dom';
+import Resultat from './Resultats';
 
 const Question = ({ data }) => {
 
@@ -25,6 +26,14 @@ const Question = ({ data }) => {
     useEffect(()=>{
         document.title = `Question numéro ${nbQuestion +1}.`;
     },)
+    function HandleAnswer(){
+        if (nbQuestion <= 8){
+            setNbQuestion(nbQuestion +1)
+        }else{
+            setNbQuestion(nbQuestion);
+        }
+
+    }
 
     return(
         <>
@@ -34,13 +43,16 @@ const Question = ({ data }) => {
             <h3>Question: {questionData && questionData[nbQuestion].titre} ?</h3>
             <div className="answer">
                 {questionData[nbQuestion].reponse.map((rep,i)=>( 
-                    <button key={i} onClick={()=>setNbQuestion(nbQuestion +1)}>
+                    <button key={i} onClick={()=>HandleAnswer()}>
                         <Rep answers={rep}/>
                     </button>
                 ))}
                 {/* <Rep answers={Object.values(questionData[nbQuestion].reponse)[randomIndex[0]]} onClick={()=>setNbQuestion(nbQuestion +=1)}/> */}
-            {nbQuestion = 11 ? (
-            <p>Vous avez terminé le quizz avec un score de:{score} </p>): (<p>Question n°{nbQuestion +1}</p>)}
+            {nbQuestion >= 9? (
+            <Resultat score={score}/>
+            ):
+            (<p>Question n°{nbQuestion +1}</p>
+            )}
             </div>        
         </>
     );
