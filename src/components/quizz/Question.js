@@ -1,63 +1,71 @@
 import Navbar from '../Navbar';
 import Rep from './Reponses';
 import {useState,useEffect} from 'react';
-import {Link} from 'react-router-dom';
 import Resultat from './Resultats';
+import { Redirect } from "react-router-dom";
 
 const Question = ({ data }) => {
 
     const [questionData, setQuestionData] = useState(data);
-    const randomIndex = [0, 1, 2, 3];
     const [score, setScore] = useState(0);
     const [nbQuestion, setNbQuestion] = useState(0);
-
-
-    let shuffle = (randomIndex) => {
-        randomIndex.sort(() => Math.random() - 0.5);
-      };
-
-    for(let i = randomIndex.length - 1; i > 0; i--){
-        const j = Math.floor(Math.random() * i)
-        const temp = randomIndex[i]
-        randomIndex[i] = randomIndex[j]
-        randomIndex[j] = temp
-      };
+    const [finish, setFinish] = useState(false);
 
     useEffect(()=>{
-        document.title = `Question numéro ${nbQuestion +1}.`;
+        document.title = `Questions numéro ${nbQuestion +1}.`;
     },)
-    function HandleAnswer(){
-        if (nbQuestion <= 8){
-            setNbQuestion(nbQuestion +1)
-        }else{
-            setNbQuestion(nbQuestion);
-        }
 
+    function HandleAnswer(i){
+
+        //const addclass = document.getElementsByClassName('divAnsw');
+
+        if(questionData[nbQuestion].vraie === questionData[nbQuestion].reponse[i] && nbQuestion <= 9 && score <10){
+            // addclass.className.add("correct")
+            // setTimeout(function(){
+            //     addclass.classList.remove("correct");
+            // },3000);
+            setScore(score + 1)
+        }
+        else{
+            // addclass.classList.add("faux")
+            //     setTimeout(function(){
+            //         addclass.className.remove("faux");
+            //     },3000);
+            setScore(score)
+        }
+        
+        if (nbQuestion < 9){ 
+            setNbQuestion(nbQuestion +1);
+        }
+        else{
+            setNbQuestion(nbQuestion);
+            setFinish(true);
+
+        }
     }
 
     return(
         <>
             <Navbar/>
             <br/><br/>
-            <h2>Voici le quizz</h2>
-            <h3>Question: {questionData && questionData[nbQuestion].titre} ?</h3>
-            <div className="answer">
-                {questionData[nbQuestion].reponse.map((rep,i)=>( 
-                    <button key={i} onClick={()=>HandleAnswer()}>
-                        <Rep answers={rep}/>
-                    </button>
-                ))}
-                {/* <Rep answers={Object.values(questionData[nbQuestion].reponse)[randomIndex[0]]} onClick={()=>setNbQuestion(nbQuestion +=1)}/> */}
-            {nbQuestion >= 9? (
-            <Resultat score={score}/>
-            ):
-            (<p>Question n°{nbQuestion +1}</p>
-            )}
-            </div>        
+            <section className="divAnsw">
+           
+                <h3>Question {nbQuestion+1}: {questionData && questionData[nbQuestion].titre} ?</h3>
+                <div className="answer">
+                    { questionData[nbQuestion].reponse.map((rep,i)=>( 
+                                <button key={i} onClick={()=>HandleAnswer(i)}>
+                                    <Rep answers={rep}/>
+                                </button>
+                            ))
+                    }
+                </div>
+             
+                {finish ? (<Resultat score={score}/>):("")}
+            </section>        
         </>
     );
 };
 
 export default Question;
 
-// à chaque changement du state, le useEffect va retirer un nombre.
+{/* <Redirect to={this.state.redirect} /> */}

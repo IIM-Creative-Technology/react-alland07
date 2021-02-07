@@ -10,21 +10,21 @@ const Landing = () => {
   return (
     <>
       <Navbar />
-      <Container />
-      <div className="anims">
+      <Container/>
+      <Meteo />
+      <section className="anims">
         {data.map((data) => {
           return (
             <Presentation
               clas={data.clas}
               titre={data.titre}
               description={data.description}
-              
               img={data.url}
             />
           );
         })}
-      </div>
-      <Meteo />
+      </section>
+      <br/>
     </>
   );
 };
