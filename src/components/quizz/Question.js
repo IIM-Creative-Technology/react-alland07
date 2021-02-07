@@ -2,7 +2,7 @@ import Navbar from '../Navbar';
 import Rep from './Reponses';
 import {useState,useEffect} from 'react';
 import Resultat from './Resultats';
-import { Redirect } from "react-router-dom";
+
 
 const Question = ({ data }) => {
 
